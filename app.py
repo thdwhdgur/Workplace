@@ -12,6 +12,3 @@ def index():
 @app.route('/second')
 def search():
     return render_template("second.html")
-
-if __name__ == '__main__':
-    app.run('0.0.0.0', port=4999, debug=True)
